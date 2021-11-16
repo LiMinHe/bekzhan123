@@ -1,16 +1,31 @@
-<!DOCTYPE html>
-<html>
-	<head>	
-		<title>JavaScript Simple Login System</title>
-		<link rel="shortcut icon" href="favicon.ico">
-	</head>
-	<body>
-		<form>
-			<input type="text" id="username" placeholder="Choose Username">
-			<input type="password" id="password" placeholer="Choose Password">
-			<button type="button" onclick="getInfo()">Click Me</button>
-		</form>
-
-		<script src="html"
-	</body>
-</html>
+</div> <!-- /container -->
+      
+      <div align="center" class = "container">
+      
+         <form class = "form-signin" role = "form" id ="LoginF"
+               action ="" method="post"
+      <h4> </h4>
+            <input type = "text" class = "form-control" 
+               name = "username" id ="username" placeholder = "username = Johnny Appleseed" 
+               required autofocus color="#00DD19"><br> 
+            &nbsp;<input type = "password" class = "form-control"
+               name = "password" id="password" placeholder = "password = Yum @pple$" required>
+            <br><button class = "btn btn-lg btn-primary btn-block" type = "submit" 
+               name = "login" id = "login" onclick="myFunction()">Login</button>
+         <script>
+ function myFunction() { 
+ String username =
+  document.getElementById("username");
+ String password =
+  document.getElementById("password");
+ 
+  String Cusername = "TeacherLogin";
+  String Cpassword = "Hapke";
+  String Wrong = "Wrong user name or password";
+  if (username = Cusername){
+   
+   if (password = Cpassword){ 
+   window.open("https://mail.google.com/mail/");
+   }else {System.out.print(Wrong);}
+  }else{System.out.print(Wrong);}
+ }
